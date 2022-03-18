@@ -1,728 +1,939 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Seppo - Corporate One Page WordPress Theme</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by CocoBasic" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="CocoBasic" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!DOCTYPE html>
-<html lang="en">
+        <link rel="shortcut icon" href="images/favicon.ico" />    
+        <link href='https://fonts.googleapis.com/css?family=Rubik:400,700,700i' rel='stylesheet' type='text/css'>		
+        <link rel="stylesheet" type="text/css"  href='style.css' />
 
-  <head>
+        <!--[if lt IE 9]>
+                <script src="js/html5shiv.js"></script>            
+                <script src="js/respond.min.js"></script>                   
+        <![endif]-->         
+    </head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <body class="page-template-onepage">
 
-    <title>Chain App Dev - App Landing Page HTML5 Template</title>
+        <div class="site-wrapper">   
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+            <div class="doc-loader">
+                <img src="images/preloader.gif" alt="Seppo">
+            </div>       
 
-<!--
-
-TemplateMo 570 Chain App Dev
-
-https://templatemo.com/tm-570-chain-app-dev
-
--->
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-
-  </head>
-
-<body>
-
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-              <img src="assets/images/logo.png" alt="Chain App Dev">
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#services">Services</a></li>
-              <li class="scroll-to-section"><a href="#about">About</a></li>
-              <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
-              <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li>
-              <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Sign In Now</a></div></li> 
-            </ul>        
-            <a class='menu-trigger'>
-                <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
-  
-  <div id="modal" class="popupContainer" style="display:none;">
-    <div class="popupHeader">
-        <span class="header_title">Login</span>
-        <span class="modal_close"><i class="fa fa-times"></i></span>
-    </div>
-
-    <section class="popupBody">
-        <!-- Social Login -->
-        <div class="social_login">
-            <div class="">
-                <a href="#" class="social_box fb">
-                    <span class="icon"><i class="fab fa-facebook"></i></span>
-                    <span class="icon_title">Connect with Facebook</span>
-
-                </a>
-
-                <a href="#" class="social_box google">
-                    <span class="icon"><i class="fab fa-google-plus"></i></span>
-                    <span class="icon_title">Connect with Google</span>
-                </a>
-            </div>
-
-            <div class="centeredText">
-                <span>Or use your Email address</span>
-            </div>
-
-            <div class="action_btns">
-                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
-                <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
-            </div>
-        </div>
-
-        <!-- Username & Password Login form -->
-        <div class="user_login">
-            <form>
-                <label>Email / Username</label>
-                <input type="text" />
-                <br />
-
-                <label>Password</label>
-                <input type="password" />
-                <br />
-
-                <div class="checkbox">
-                    <input id="remember" type="checkbox" />
-                    <label for="remember">Remember me on this computer</label>
-                </div>
-
-                <div class="action_btns">
-                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
-                    <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
-                </div>
-            </form>
-
-            <a href="#" class="forgot_password">Forgot password?</a>
-        </div>
-
-        <!-- Register Form -->
-        <div class="user_register">
-            <form>
-                <label>Full Name</label>
-                <input type="text" />
-                <br />
-
-                <label>Email Address</label>
-                <input type="email" />
-                <br />
-
-                <label>Password</label>
-                <input type="password" />
-                <br />
-
-                <div class="checkbox">
-                    <input id="send_updates" type="checkbox" />
-                    <label for="send_updates">Send me occasional email updates</label>
-                </div>
-
-                <div class="action_btns">
-                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
-                    <div class="one_half last"><a href="#" class="btn btn_red">Register</a></div>
-                </div>
-            </form>
-        </div>
-    </section>
-</div>
-
-  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-6 align-self-center">
-              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <h2>Get The Latest App From App Stores</h2>
-                    <p>Chain App Dev is an app landing page HTML5 template based on Bootstrap v5.1.3 CSS layout provided by TemplateMo, a great website to download free CSS templates.</p>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="white-button first-button scroll-to-section">
-                      <a href="#contact">Free Quote <i class="fab fa-apple"></i></a>
+            <header class="header-holder">             
+                <div class="menu-wrapper center-relative relative">             
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="Seppo">
+                        </a>               
                     </div>
-                    <div class="white-button scroll-to-section">
-                      <a href="#contact">Free Quote <i class="fab fa-google-play"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/slider-dec.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div id="services" class="services section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-            <h4>Amazing <em>Services &amp; Features</em> for you</h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
-            <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more information.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="service-item first-service">
-            <div class="icon"></div>
-            <h4>App Maintenance</h4>
-            <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
-            <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="service-item second-service">
-            <div class="icon"></div>
-            <h4>Rocket Speed of App</h4>
-            <p>You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this layout.</p>
-            <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
-            <h4>Multi Workflow Idea</h4>
-            <p>If this template is beneficial for your work, please support us <a rel="nofollow" href="https://paypal.me/templatemo" target="_blank">a little via PayPal</a>. Thank you.</p>
-            <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="service-item fourth-service">
-            <div class="icon"></div>
-            <h4>24/7 Help &amp; Support</h4>
-            <p>Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and fashion axe.</p>
-            <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="about" class="about-us section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="section-heading">
-            <h4>About <em>What We Do</em> &amp; Who We Are</h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
-          </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="box-item">
-                <h4><a href="#">Maintance Problems</a></h4>
-                <p>Lorem Ipsum Text</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="box-item">
-                <h4><a href="#">24/7 Support &amp; Help</a></h4>
-                <p>Lorem Ipsum Text</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="box-item">
-                <h4><a href="#">Fixing Issues About</a></h4>
-                <p>Lorem Ipsum Text</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="box-item">
-                <h4><a href="#">Co. Development</a></h4>
-                <p>Lorem Ipsum Text</p>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et dolore adipiscing  magna.</p>
-              <div class="gradient-button">
-                <a href="#">Start 14-Day Free Trial</a>
-              </div>
-              <span>*No Credit Card Required</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="right-image">
-            <img src="assets/images/about-right-dec.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="clients" class="the-clients">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading">
-            <h4>Check What <em>The Clients Say</em> About Our App Dev</h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="naccs">
-            <div class="grid">
-              <div class="row">
-                <div class="col-lg-7 align-self-center">
-                  <div class="menu">
-                    <div class="first-thumb active">
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>David Martino Co</h4>
-                            <span class="date">30 November 2021</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">Financial Apps</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">4.8</span>
-                          </div>
+                    <div class="toggle-holder">
+                        <div id="toggle">
+                            <div class="first-menu-line"></div>
+                            <div class="second-menu-line"></div>
+                            <div class="third-menu-line"></div>
                         </div>
-                      </div>
                     </div>
-                    <div>
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>Jake Harris Nyo</h4>
-                            <span class="date">29 November 2021</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">Digital Business</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">4.5</span>
-                          </div>
-                        </div>
-                      </div>
+
+                    <div class="menu-holder">
+                        <nav id="header-main-menu">
+                            <ul class="main-menu sm sm-clean">
+                                <li>
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#services">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a href="#clients">Clients</a>
+                                </li>
+                                <li>
+                                    <a href="#news">News</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#pricing">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="#team">Team</a>
+                                </li>
+                                <li>
+                                    <a href="#skills">Skills</a>
+                                </li>
+                                <li>
+                                    <a href="#millstones">Milestones</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>                       
                     </div>
-                    <div>
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>May Catherina</h4>
-                            <span class="date">27 November 2021</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">Business &amp; Economics</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">4.7</span>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="clear"></div>   
+                </div>
+            </header>                  
+
+            <div id="content" class="site-content center-relative">        
+
+                <!-- Home Section -->
+                <div id="home" class="section no-page-title">                   
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">                           
+                            <h1 class="big-text">
+                                Technology <br>                               
+                                & Visual Agency
+                            </h1>
+                            <div class="button-holder text-left">
+                                <a href="#portfolio" class="button">LEARN MORE</a>
+                            </div>
+                        </div>                        
                     </div>
-                    <div>
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>Random User</h4>
-                            <span class="date">24 November 2021</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">New App Ecosystem</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">3.9</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="last-thumb">
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>Mark Amber Do</h4>
-                            <span class="date">21 November 2021</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">Web Development</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">4.3</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div> 
-                <div class="col-lg-5">
-                  <ul class="nacc">
-                    <li class="active">
-                      <div>
-                        <div class="thumb">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="client-content">
-                                <img src="assets/images/quote.png" alt="">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
-                              </div>
-                              <div class="down-content">
-                                <img src="assets/images/client-image.jpg" alt="">
-                                <div class="right-content">
-                                  <h4>David Martino</h4>
-                                  <span>CEO of David Company</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="thumb">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="client-content">
-                                <img src="assets/images/quote.png" alt="">
-                                <p>“CTO, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
-                              </div>
-                              <div class="down-content">
-                                <img src="assets/images/client-image.jpg" alt="">
-                                <div class="right-content">
-                                  <h4>Jake H. Nyo</h4>
-                                  <span>CTO of Digital Company</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="thumb">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="client-content">
-                                <img src="assets/images/quote.png" alt="">
-                                <p>“May, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
-                              </div>
-                              <div class="down-content">
-                                <img src="assets/images/client-image.jpg" alt="">
-                                <div class="right-content">
-                                  <h4>May C.</h4>
-                                  <span>Founder of Catherina Co.</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="thumb">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="client-content">
-                                <img src="assets/images/quote.png" alt="">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
-                              </div>
-                              <div class="down-content">
-                                <img src="assets/images/client-image.jpg" alt="">
-                                <div class="right-content">
-                                  <h4>Random Staff</h4>
-                                  <span>Manager, Digital Company</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="thumb">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="client-content">
-                                <img src="assets/images/quote.png" alt="">
-                                <p>“Mark, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
-                              </div>
-                              <div class="down-content">
-                                <img src="assets/images/client-image.jpg" alt="">
-                                <div class="right-content">
-                                  <h4>Mark Am</h4>
-                                  <span>CTO, Amber Do Company</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>          
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div id="pricing" class="pricing-tables">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading">
-            <h4>We Have The Best Pre-Order <em>Prices</em> You Can Get</h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-item-regular">
-            <span class="price">$12</span>
-            <h4>Standard Plan App</h4>
-            <div class="icon">
-              <img src="assets/images/pricing-table-01.png" alt="">
-            </div>
-            <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>20 TB of Storage</li>
-              <li class="non-function">Life-time Support</li>
-              <li class="non-function">Premium Add-Ons</li>
-              <li class="non-function">Fastest Network</li>
-              <li class="non-function">More Options</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">Purchase This Plan Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-item-pro">
-            <span class="price">$25</span>
-            <h4>Business Plan App</h4>
-            <div class="icon">
-              <img src="assets/images/pricing-table-01.png" alt="">
-            </div>
-            <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>50 TB of Storage</li>
-              <li>Life-time Support</li>
-              <li>Premium Add-Ons</li>
-              <li class="non-function">Fastest Network</li>
-              <li class="non-function">More Options</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">Purchase This Plan Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-item-regular">
-            <span class="price">$66</span>
-            <h4>Premium Plan App</h4>
-            <div class="icon">
-              <img src="assets/images/pricing-table-01.png" alt="">
-            </div>
-            <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>120 TB of Storage</li>
-              <li>Life-time Support</li>
-              <li>Premium Add-Ons</li>
-              <li>Fastest Network</li>
-              <li>More Options</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">Purchase This Plan Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> 
+                <!-- Services Section -->
+                <div id="services" class="section">                   
+                    <div class="page-title-holder">
+                        <h3 class="entry-title">
+                            SERVICES             
+                        </h3>
+                    </div>
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">
 
-  <footer id="newsletter">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading">
-            <h4>Join our mailing list to receive the news &amp; latest trends</h4>
-          </div>
-        </div>
-        <div class="col-lg-6 offset-lg-3">
-          <form id="search" action="#" method="GET">
-            <div class="row">
-              <div class="col-lg-6 col-sm-6">
-                <fieldset>
-                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-6 col-sm-6">
-                <fieldset>
-                  <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>Contact Us</h4>
-            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
-            <p><a href="#">010-020-0340</a></p>
-            <p><a href="#">info@company.co</a></p>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>About Us</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Free Apps</a></li>
-              <li><a href="#">App Engine</a></li>
-              <li><a href="#">Programming</a></li>
-              <li><a href="#">Development</a></li>
-              <li><a href="#">App News</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">App Dev Team</a></li>
-              <li><a href="#">Digital Web</a></li>
-              <li><a href="#">Normal Apps</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>About Our Company</h4>
-            <div class="logo">
-              <img src="assets/images/white-logo.png" alt="">
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="copyright-text">
-            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved. 
-          <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+                            <div class="one_third ">
+                                <div class="service-holder">
+                                    <p class="service-num">1</p>
+                                    <div class="service-txt">
+                                        <h4>Preciese</h4>
+                                        <p>
+                                            Curabitur cursus mattis ligula a maximus pellentesque in purus malesuada pharetra eros.
+                                        </p>
+                                        <br>
+                                        <div class="button-holder text-left">
+                                            <a href="#portfolio" class="button-dot">
+                                                <span>MORE</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one_third ">
+                                <div class="service-holder">
+                                    <p class="service-num">2</p>
+                                    <div class="service-txt">
+                                        <h4>Support</h4>
+                                        <p>
+                                            Est sem integer suscipit enim quis dictum feugiat etiam pellentesque curabitur donec porttitor.
+                                        </p>
+                                        <br>
+                                        <div class="button-holder text-left">
+                                            <a href="#news" class="button-dot">
+                                                <span>MORE</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one_third last">
+                                <div class="service-holder">
+                                    <p class="service-num">3</p>
+                                    <div class="service-txt">
+                                        <h4>Responsive</h4>
+                                        <p>
+                                            Donec vel est sem integer suscipit enim quis lorem posuere vestibulum metus tempor vitae.
+                                        </p>
+                                        <br>
+                                        <div class="button-holder text-left">
+                                            <a href="#contact" class="button-dot">
+                                                <span>MORE</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="clear"></div>
+                        </div>                        
+                    </div>
+                </div>
+
+                <!-- About Section -->
+                <div id="about" class="section">                   
+                    <div class="page-title-holder">
+                        <h3 class="entry-title">
+                            ABOUT             
+                        </h3>
+                    </div>
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">
+
+                            <div class="one_half">
+                                <p class="title-description-up">
+                                    WHO WE ARE
+                                </p>
+                                <h2 class="entry-title medium-text">
+                                    Live up to <br> 
+                                    your creative potential.
+                                </h2>
+                                <p>
+                                    Code the energy hidden in matter citizens of distant epochs from which we spring drake equation perga inconspicuous motespatch clean designed code and energy matter.
+                                </p>
+                                <br>
+                                <div class="button-holder text-left">
+                                    <a href="#portfolio" class="button">
+                                        LEARN MORE
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="one_half last" data-threshold="0 0" data-jarallax-element="120 0">
+                                <img src="images/about_01.jpg" alt="" />                     
+                            </div>
+                            <div class="clear"></div>
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Clients Section -->
+                <div id="clients" class="section no-page-title">                   
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">
+                            <div class="one" data-threshold="0 0" data-jarallax-element="120 0">
+                                <script>
+                                    var textSlider_speed = "2000";
+                                    var textSlider_auto = "true";
+                                    var textSlider_hover = "true";
+                                </script>
+
+                                <div class="text-slider-wrapper relative">
+                                    <div class="text-slider-header-quotes"></div>
+                                    <div id="textSlider" class="text-slider slider owl-carousel owl-theme">
+
+                                        <div class="text-slide">
+                                            <p class="text-slide-content">
+                                                Curabitur cursus mattis ligula a maximus pellentesque in purus malesuada, pharetra eros id, malesuada diam vivamus eu gravida lacus nulla at consectetur quam vestibulum ac arcu sed.
+                                            </p>
+                                            <img class="text-slide-img" src="images/quote_image_03.jpg" alt="">
+                                            <p class="text-slide-name">Jane Williams</p>
+                                            <p class="text-slide-position">DESIGNER</p>
+                                        </div>
+
+                                        <div class="text-slide">
+                                            <p class="text-slide-content">
+                                                Vivamus quis ante varius, pretium lectus ut, tempor eros maecenas vitae purus lobortis, pulvinar lorem eu, porta elit suspendisse blandit porta magna, nec scelerisque urna viverra lorem gravida.
+                                            </p>
+                                            <img class="text-slide-img" src="images/quote_image_04.jpg" alt="">
+                                            <p class="text-slide-name">John Smith</p>
+                                            <p class="text-slide-position">GURU</p>
+                                        </div>
+
+                                        <div class="text-slide">
+                                            <p class="text-slide-content">
+                                                Suspendisse enim erat, vehicula sit amet odio eu, congue gravida magna mauris a ex aliquam, ornare tortor sit amet, placerat ante aenean sit amet sem et metus elementum pellentesque.
+                                            </p>
+                                            <img class="text-slide-img" src="images/quote_image_02.jpg" alt="">
+                                            <p class="text-slide-name">Peter Hall</p>
+                                            <p class="text-slide-position">CEO</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="clear"></div>                                        
+                                </div>                    
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News Section -->
+                <div id="news" class="section">                   
+                    <div class="page-title-holder">
+                        <h3 class="entry-title">
+                            NEWS             
+                        </h3>
+                    </div>
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">
+                            <div class="blog-holder-scode latest-posts-scode block center-relative">
+
+                                <article class="relative blog-item-holder-scode">
+                                    <div class="post-thumbnail">
+                                        <a href="single.html">
+                                            <div class="latest-posts-background-featured-image-holder" data-background-image="images/blog_img_01.jpg"></div>
+                                        </a>                                            
+                                    </div>
+                                    <h4 class="entry-title">
+                                        <a href="single.html">
+                                            How to write rogue mote of dust love
+                                        </a>
+                                    </h4>
+                                    <div class="excerpt">
+                                        Bearable only through love hydrogen atoms bits of moving fluff culture shores of the cosmic ocean paroxysm of global death ...
+                                    </div>
+                                </article>
+
+                                <article class="relative blog-item-holder-scode">
+                                    <div class="post-thumbnail">
+                                        <a href="single.html">
+                                            <div class="latest-posts-background-featured-image-holder" data-background-image="images/blog_img_02.jpg"></div>
+                                        </a>                                           
+                                    </div>
+                                    <h4 class="entry-title">
+                                        <a href="single.html">
+                                            Epochs encyclopa galactica stellar
+                                        </a>
+                                    </h4>
+                                    <div class="excerpt">
+                                        Bearable only through love hydrogen atoms bits of moving fluff culture shores of the cosmic ocean paroxysm of global death ...
+                                    </div>
+                                </article>
+
+                                <article class="relative blog-item-holder-scode">
+                                    <div class="post-thumbnail">
+                                        <a href="single.html">
+                                            <div class="latest-posts-background-featured-image-holder" data-background-image="images/blog_img_03.jpg"></div>
+                                        </a>                                           
+                                    </div>
+                                    <h4 class="entry-title">
+                                        <a href="single.html">
+                                            How to write rogue mote of dust love
+                                        </a>
+                                    </h4>
+                                    <div class="excerpt">
+                                        Bearable only through love hydrogen atoms bits of moving fluff culture shores of the cosmic ocean paroxysm of global death ...
+                                    </div>
+                                </article>                                                                    
+                            </div>
+                            <br>
+                            <div class="button-holder center-text">
+                                <a href="blog.html" class="button">
+                                    GO TO BLOG
+                                </a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
 
 
-  <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
-</body>
+                <!-- Portfolio Section -->
+                <div id="portfolio" class="section no-padding">                   
+                    <div class="page-title-holder">
+                        <h3 class="entry-title">
+                            PORTFOLIO                        
+                        </h3>
+                    </div>
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">
+                            <div id="portfolio-wrapper">
+                                <div class="portfolio-load-content-holder"></div>
+                                <div class="grid" id="portfolio-grid">
+                                    <div class="grid-sizer"></div>
+
+                                    <div id="p-item-1" class="grid-item element-item p_one_fourth">
+                                        <a class="item-link ajax-portfolio" href="portfolio-1.html" data-id="1">
+                                            <img src="images/portfolio_item_01.jpg" alt="" />
+                                            <div class="portfolio-text-holder">
+                                                <p class="portfolio-desc">INTERIOR</p>
+                                                <p class="portfolio-title">Living Room</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div id="p-item-2" class="grid-item element-item p_one_half">
+                                        <a class="item-link ajax-portfolio" href="portfolio-2.html" data-id="2">
+                                            <img src="images/portfolio_item_02.jpg" alt="" />
+                                            <div class="portfolio-text-holder">
+                                                <p class="portfolio-desc">FASHION</p>
+                                                <p class="portfolio-title">Modeling</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div id="p-item-3" class="grid-item element-item p_one_fourth">
+                                        <a class="item-link ajax-portfolio" href="portfolio-3.html" data-id="3">
+                                            <img src="images/portfolio_item_03.jpg" alt="" />
+                                            <div class="portfolio-text-holder">
+                                                <p class="portfolio-desc">CREATIVE</p>
+                                                <p class="portfolio-title">Psd Mockup</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div id="p-item-4" class="grid-item element-item p_one_fourth">
+                                        <a class="item-link ajax-portfolio" href="portfolio-4.html" data-id="4">
+                                            <img src="images/portfolio_item_04.jpg" alt="" />
+                                            <div class="portfolio-text-holder">
+                                                <p class="portfolio-desc">ARCHITECTURE</p>
+                                                <p class="portfolio-title">Pillars</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Pricing Section -->
+                <div id="pricing" class="section">                   
+                    <div class="page-title-holder">
+                        <h3 class="entry-title">
+                            PRICING             
+                        </h3>
+                    </div>
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">
+
+                            <div class="one_third">
+                                <div class="pricing-table ">
+                                    <p class="pricing-num">1</p>
+                                    <div class="pricing-wrapper">                   
+                                        <div class="pricing-table-header">
+                                            <div class="pricing-table-title">BASIC</div>                                                
+                                        </div>
+                                        <div class="pricing-table-price">$25</div>
+                                        <div class="pricing-table-desc">PER MONTH</div>
+                                        <div class="pricing-table-content-holder">  
+                                            <ul>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Support
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    5GB Server Space
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    2 Users per Project
+                                                </li>
+                                                <li class="pricing-list included-no">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Email Integration
+                                                </li>
+                                                <li class="pricing-list included-no">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Download
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-button">
+                                        <a href="#" class="button scroll">
+                                            CHOOSE PLAN
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one_third">
+                                <div class="pricing-table ">
+                                    <p class="pricing-num">2</p>
+                                    <div class="pricing-wrapper">                   
+                                        <div class="pricing-table-header">
+                                            <div class="pricing-table-title">ADVANCED</div>                                                
+                                        </div>
+                                        <div class="pricing-table-price">$50</div>
+                                        <div class="pricing-table-desc">PER MONTH</div>
+                                        <div class="pricing-table-content-holder">  
+                                            <ul>                                                 
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Support
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    5GB Server Space
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    2 Users per Project
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Email Integration
+                                                </li>
+                                                <li class="pricing-list included-no">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Download
+                                                </li>
+                                            </ul>                                            
+                                        </div>
+                                    </div>
+                                    <div class="pricing-button">
+                                        <a href="#" class="button scroll">
+                                            CHOOSE PLAN
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one_third last">
+                                <div class="pricing-table ">
+                                    <p class="pricing-num">3</p>
+                                    <div class="pricing-wrapper">                   
+                                        <div class="pricing-table-header">
+                                            <div class="pricing-table-title">EXPERT</div>                                                
+                                        </div>
+                                        <div class="pricing-table-price">$75</div>
+                                        <div class="pricing-table-desc">PER MONTH</div>
+                                        <div class="pricing-table-content-holder">  
+                                            <ul>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Support
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    5GB Server Space
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    2 Users per Project
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Email Integration
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Download
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-button">
+                                        <a href="#" class="button scroll">
+                                            CHOOSE PLAN
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Team Section -->
+                <div id="team" class="section">                   
+                    <div class="page-title-holder">
+                        <h3 class="entry-title">
+                            TEAM             
+                        </h3>
+                    </div>
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">
+                            <div class="member member-left">
+                                <img src="images/about_item_01.jpg" alt="" data-threshold="0 0" data-jarallax-element="60 0">
+                                <div class="member-info">
+                                    <p class="member-postition">CEO</p>
+                                    <h5 class="member-name">Marty Stone</h5>
+                                    <div class="member-content">
+                                        <p>
+                                            Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
+                                        </p>
+                                        <div class="member-social-holder" data-jarallax-element="0 30">
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-facebook"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-twitter"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-instagram"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-vimeo"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-behance"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br>
+
+                            <div class="member big-screen member-right">
+                                <div class="member-info">
+                                    <p class="member-postition">DESIGNER</p>
+                                    <h5 class="member-name">John Williams</h5>
+                                    <div class="member-content">
+                                        <p>
+                                            Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
+                                        </p>
+                                        <div class="member-social-holder" data-jarallax-element="0 -30">
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-facebook"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-twitter"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-instagram"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-vimeo"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-behance"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="images/about_item_02.jpg" alt="" data-threshold="0 0" data-jarallax-element="60 0" />
+                            </div>
+
+                            <br>
+
+                            <div class="member member-left">
+                                <img src="images/about_item_03.jpg" alt="" data-threshold="0 0" data-jarallax-element="60 0" />
+                                <div class="member-info">
+                                    <p class="member-postition">DEVELOPER</p>
+                                    <h5 class="member-name">Vanessa Doe</h5>
+                                    <div class="member-content">
+                                        <p>
+                                            Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
+                                        </p>
+                                        <div class="member-social-holder" data-jarallax-element="0 30">
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-facebook"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-twitter"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-instagram"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-vimeo"></span>
+                                                </a>
+                                            </div>
+                                            <div class="social">
+                                                <a href="#" target="_blank">
+                                                    <span class="fa fa-behance"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Skills Section -->
+                <div id="skills" class="section">                   
+                    <div class="page-title-holder">
+                        <h3 class="entry-title">
+                            SKILLS             
+                        </h3>
+                    </div>
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">
+
+                            <div class="one_half ">
+                                <p class="title-description-up">
+                                    OUR NUMBERS
+                                </p>
+                                <h2 class="entry-title medium-text">
+                                    Check our <br>
+                                    Skills
+                                </h2>
+                                <p>
+                                    Code the energy hidden in matter citizens of distant epochs from which we spring drake equation perga inconspicuous motespatch clean designed code and energy matter.
+                                </p>
+                                <br>
+                                <div class="button-holder text-left">
+                                    <a href="#portfolio" class="button">LEARN MORE</a>
+                                </div>
+                            </div>
+
+                            <div class="one_half last">
+                                <div class="skills-holder">
+
+                                    <div class="skill-holder">
+                                        <div class="skill-percent">75%</div>
+                                        <div class="skill-text">
+                                            <span>Creativity</span>
+                                            <div class="skill">
+                                                <div class="skill-fill" data-fill="75%"></div>                                                    
+                                            </div>                                                
+                                        </div>                                            
+                                    </div>
+
+                                    <div class="skill-holder">
+                                        <div class="skill-percent">45%</div>
+                                        <div class="skill-text">
+                                            <span>Cooking</span>
+                                            <div class="skill">
+                                                <div class="skill-fill" data-fill="45%"></div>                                                    
+                                            </div>                                                
+                                        </div>                                            
+                                    </div>
+
+                                    <div class="skill-holder">
+                                        <div class="skill-percent">90%</div>
+                                        <div class="skill-text">
+                                            <span>PhP</span>
+                                            <div class="skill">
+                                                <div class="skill-fill" data-fill="90%"></div>                                                    
+                                            </div>                                                
+                                        </div>                                            
+                                    </div>
+
+                                    <div class="skill-holder">
+                                        <div class="skill-percent">65%</div>
+                                        <div class="skill-text">
+                                            <span>Marketing</span>
+                                            <div class="skill">
+                                                <div class="skill-fill" data-fill="65%"></div>                                                    
+                                            </div>                                                
+                                        </div>                                            
+                                    </div>
+
+                                    <div class="skill-holder">
+                                        <div class="skill-percent">85%</div>
+                                        <div class="skill-text">
+                                            <span>Design</span>
+                                            <div class="skill">
+                                                <div class="skill-fill" data-fill="85%"></div>                                                    
+                                            </div>                                                
+                                        </div>                                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Millstones Section -->
+                <div id="millstones" class="section">                   
+                    <div class="page-title-holder">
+                        <h3 class="entry-title">
+                            MILESTONES             
+                        </h3>
+                    </div>
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">
+                            <ul class="milestones-holder">
+
+                                <li class="milestone">
+                                    <div class="milestone-info-left">
+                                        <p class="milestone-num">135</p>
+                                    </div>
+                                    <div class="milestone-info-right">
+                                        <h5>Terabytes of files uploaded</h5>
+                                        <p class="milestone-text">
+                                            Nulla ac laoreet est, a mollis nibh. Aenean eget auctor velit quis pharetra.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="milestone">
+                                    <div class="milestone-info-left">
+                                        <p class="milestone-num">67K</p>
+                                    </div>
+                                    <div class="milestone-info-right">
+                                        <h5>Lines of CSS code wrote</h5>
+                                        <p class="milestone-text">
+                                            Nulla ac laoreet est, a mollis nibh. Aenean eget auctor velit quis pharetra.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="milestone">
+                                    <div class="milestone-info-left">
+                                        <p class="milestone-num">74</p>
+                                    </div>
+                                    <div class="milestone-info-right">
+                                        <h5>Cups of coffee drinked per week</h5>
+                                        <p class="milestone-text">
+                                            Nulla ac laoreet est, a mollis nibh. Aenean eget auctor velit quis pharetra.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="milestone">
+                                    <div class="milestone-info-left">
+                                        <p class="milestone-num">389</p>
+                                    </div>
+                                    <div class="milestone-info-right">
+                                        <h5>Happy clients served this year</h5>
+                                        <p class="milestone-text">
+                                            Nulla ac laoreet est, a mollis nibh. Aenean eget auctor velit quis pharetra.
+                                        </p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Contact Section -->
+                <div id="contact" class="section">                   
+                    <div class="page-title-holder">
+                        <h3 class="entry-title">
+                            CONTACT             
+                        </h3>
+                    </div>
+                    <div class="section-wrapper block content-1170 center-relative">                                                
+                        <div class="content-wrapper">
+                            <div class="one_half ">
+                                <p class="title-description-up">CONTACT US</p>
+                                <h2 class="entry-title medium-text">
+                                    Lets start <br>
+                                    Working
+                                </h2>
+                                <p>
+                                    Because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept one we are.
+                                </p>
+                                <br>
+                                <div class="social">
+                                    <a href="#" target="_blank">
+                                        <span class="fa fa-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="social">
+                                    <a href="#" target="_blank">
+                                        <span class="fa fa-twitter"></span>
+                                    </a>
+                                </div>
+                                <div class="social">
+                                    <a href="#" target="_blank">
+                                        <span class="fa fa-instagram"></span>
+                                    </a>
+                                </div>
+                                <div class="social">
+                                    <a href="#" target="_blank">
+                                        <span class="fa fa-vimeo"></span>
+                                    </a>
+                                </div>
+                                <div class="social">
+                                    <a href="#" target="_blank">
+                                        <span class="fa fa-behance"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="one_half last ">
+                                <div class="contact-form">
+                                    <p>
+                                        <input id="name" type="text" name="your-name" placeholder="Name">
+                                    </p>
+                                    <p>
+                                        <input id="contact-email" type="email" name="your-email" placeholder="Email">
+                                    </p>                                    
+                                    <p>
+                                        <input id="subject" type="text" name="your-subject" placeholder="Subject">
+                                    </p>
+                                    <p>
+                                        <textarea id="message" name="your-message" placeholder="Message"></textarea>
+                                    </p>
+                                    <p class="contact-submit-holder">
+                                        <input type="submit" value="SEND">
+                                    </p>  
+                                </div>
+                            </div>                            
+                            <div class="clear"></div>
+
+                            <p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4274.290564544589!2d-75.2952832049782!3d40.753669641460846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srs!4v1444506658649" width="600" height="450" allowfullscreen="allowfullscreen"></iframe>
+                            </p>
+
+                        </div>                        
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content center-relative">
+                    <div class="footer-logo">
+                        <img src="images/footer_logo.png" alt="Seppo" />
+                    </div>        
+                    <div class="footer-logo-divider"></div>
+                    <div class="footer-mail">            
+                        <a href="mailto:hello@site.com">hello@cocobasic.com</a>
+                    </div>
+                    <div class="footer-social-divider"></div>
+                    <div class="social-holder">
+                        <a href="#">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-behance"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-dribbble"></span>
+                        </a>
+                    </div>
+
+                    <div class="copyright-holder">
+                        © 2018 Seppo HTML Template by <a href="https://cocobasic.com">CocoBasic</a>            
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!--Load JavaScript-->
+        <script src="js/jquery.js"></script>			                                       
+        <script src="js/jquery.sticky.js"></script>			                                       
+        <script src="js/tipper.js"></script>			                                       
+        <script src="js/jarallax.js"></script>			                                       
+        <script src="js/jarallax-element.min.js"></script>			                                       
+        <script src='js/imagesloaded.pkgd.js'></script>                
+        <script src='js/jquery.fitvids.js'></script>                
+        <script src='js/jquery.smartmenus.min.js'></script>                                 
+        <script src='js/isotope.pkgd.js'></script>                                                 
+        <script src='js/owl.carousel.min.js'></script>                          
+        <script src='js/jquery.sticky-kit.min.js'></script>                          
+        <script src='js/main.js'></script>
+    </body>
 </html>
